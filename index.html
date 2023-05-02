@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan Cast's Portfolio</title>
+    <link rel='stylesheet' href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;800&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+</head>
+<!-- //////-------------------------------------------------\\\\\\
+   ||  |             Bryan Cast Web Development            |  ||
+   ||  |                       Welcome!                     |  ||
+   ||\\\\-------------------------------------------------////||
+   ||                                                         ||
+   ||                               \O                        ||
+ __||__                              |\                     __||__
+|______|____________________________/_\____________________|______| -->
+<body>
+    <nav>
+        <ul class="desktop-list">
+            <li><a href="" data-target='projects'>Projects</a></li>
+            <li><a href="" data-target='story'>Story</a></li>
+            <li><a href="#">Resume</a></li>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+        </ul>
+        <ul class="mobile-list">
+            <li><a href="" data-target='projects'>Projects</a></li>
+            <li><a href="" data-target='story'>Story</a></li>
+            <li><a href="#">Resume</a></li>
+        </ul>
+
+    </nav>
+    <div id="particles-js">
+        <div class="intro">
+            <h1>Bryan Cast. <span>Web Developer.<span></h1>
+            <p>Hello! Welcome to my site. I am a front-end web developer who has been building websites professionally since 2021. Scroll down to have a look at some of the projects I've worked on.</p>
+        </div>
+    </div>
+    <section class="section projects" id="projects" >
+        <div id="projects" data-target='projects' class="intro-body">
+            <h2>Projects</h2>
+            <p class="center">Here are some of the websites I've gotten to build over the last couple years.</p>
+        </div>
+
+        <div class="projects-wrapper">
+
+            <!-- Visit a Dentist -->
+            <a target="_blank" href="https://visitadentist.org/"><div style="background-image: url('images/visit-a-dentist.png')" class="project-container">
+                <div>
+                    <span><h3>Visit a Dentist</h3></span>
+                    <p>Visit a Dentist is a simple, but charming little brochure site built for Delta Dental of Kansas. It was made using just HTML, CSS, and JS/Jquery.</p>
+                </div>
+            </div></a>
+
+            <a target="_blank" href="https://wichitafoundation.org/"><div style="background-image: url('images/wichitafoundation.jpg')" class="project-container">
+                <div>
+                    <span><h3>Wichita Foundation</h3></span>
+                    <p>Custom Expression Engine Theme using HTML, SASS, Javascript, Webpack, and Laravel Mix.</p>
+                </div>
+            </div></a>
+
+            <a target="_blank" href="https://wichitafoundation.org/"><div style="background-image: url('images/kansassiding.jpg')" class="project-container">
+                <div>
+                    <span><h3>Kansas Siding Supply</h3></span>
+                    <p>This was a project I inherited midway through development. It's built with Laravel and Tailwind along with a little Jquery</p>
+                </div>
+            </div></a>
+
+            <a target="_blank" href="https://jerrybuchananart.com/."><div style="background-image: url('images/jerryart.jpg')" class="project-container">
+                <div>
+                    <span><h3>Jerry Buchanan Art</h3></span>
+                    <p>A Gallery site built to showcase the art of the late Jerry Buchanan. Built with HTML, CSS, and Javascript. All of the scrolling motion was built manually.</p>
+                </div>
+            </div></a>
+
+        </div>
+    </section>
+
+    <section class="section story">
+        <div id="story" data-target='story' class="intro-body wide">
+                <h2>My Developer <span class="purple">Story<span></h2>
+                <p>During some of the darkest days of the Pandemic in spring of 2020 I finally decided to pursue a longtime interest in web development by enrolling in an online coding bootcamp. Like so many others during that time I felt I was ready for a change so I moved on from my first career as a television newscast director and dove into a new challenge of creating beautiful, interactive webpages. A year later I was fortunate to receive my first job offer from <a target="_blank" href="https://lifeboatcreative.com/"><strong>Lifeboat Creative</strong></a> and quickly got to work learning the ropes of professional web development.</p>
+                <p>Since joining the Lifeboat team I've further honed my skills in CSS, HTML, and Javascript, along with gaining experience in PHP, Laravel, Wordpress and Expression Engine theme development, version control, and a lot of debugging!</p>
+                <p>If you'd like to know more about my development skills, work history, or the Nebraska Cornhuskers, feel free to reach out on <a target="_blank" href="https://www.linkedin.com/in/bryan-cast-310b1094/"><strong>LinkedIn!</strong></a></p>
+        </div>
+    </section>
+
+    <footer>
+    <span>&copy 2023 Bryan Cast</span>
+    </footer>
+
+<script src="
+https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js
+"></script>
+<script>
+    particlesJS.load('particles-js', 'particles.json', function(){
+        
+    })
+</script>
+<script src="app.js"></script>
+</body>
+</html>
