@@ -66,9 +66,9 @@ document.addEventListener("DOMContentLoaded", function(){
     ScrollReveal().reveal('.intro h1', {origin: 'left', delay: 200, distance: '20px', duration: 2000});
     ScrollReveal().reveal('.intro span',{ delay: 800, duration: 2000});
     ScrollReveal().reveal('.intro p',{ delay: 1500, duration: 1000});
-    ScrollReveal().reveal('#projects h2', {reset:true});
-    ScrollReveal().reveal('#projects p', {reset:true});
-    ScrollReveal().reveal('#story',{origin: 'bottom', delay: 200, distance: '20px', duration: 1000, reset:true });
+    ScrollReveal().reveal('#projects h2', {reset:false});
+    ScrollReveal().reveal('#projects p', {reset:false});
+    ScrollReveal().reveal('#story',{origin: 'bottom', delay: 200, distance: '20px', duration: 1000, reset:false });
 
     //auto adds delay to project cards 
     const projects = document.querySelectorAll('.project-container')
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function(){
         if (delay > 400){
             delay = 0
         }
-        ScrollReveal().reveal(project, { delay: delay, origin: 'left', distance: '100px', duration: 2000, reset:true });
+        ScrollReveal().reveal(project, { delay: delay, origin: 'left', distance: '100px', duration: 2000, reset:false });
         delay += 200
     }))
 
