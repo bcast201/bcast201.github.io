@@ -66,8 +66,8 @@ document.addEventListener("DOMContentLoaded", function(){
     ScrollReveal().reveal('.intro h1', {origin: 'left', delay: 200, distance: '20px', duration: 2000});
     ScrollReveal().reveal('.intro span',{ delay: 800, duration: 2000});
     ScrollReveal().reveal('.intro p',{ delay: 1500, duration: 1000});
-    ScrollReveal().reveal('#projects h2', {reset:false});
-    ScrollReveal().reveal('#projects p', {reset:false});
+    ScrollReveal().reveal('#projects div h2', {origin: 'bottom', reset:false, duration: 1000, distance: '20px'});
+    ScrollReveal().reveal('#projects div p', {origin: 'bottom', reset:false, duration: 1000, distance: '20px'});
     ScrollReveal().reveal('#story',{origin: 'bottom', delay: 200, distance: '20px', duration: 1000, reset:false });
 
     //auto adds delay to project cards 
